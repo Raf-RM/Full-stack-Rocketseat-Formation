@@ -1,0 +1,9 @@
+div, span {
+    border: solid;
+    width: 50%;
+}
+
+.margin {
+    /* margin: 30px 60px 90px 4rem; */
+    margin: 30px;
+}

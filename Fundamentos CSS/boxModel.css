@@ -1,0 +1,15 @@
+h1 {
+    border: solid;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+}
+
+span {
+    border: solid;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+}
