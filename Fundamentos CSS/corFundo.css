@@ -1,3 +1,15 @@
 p {
     color: #ff0099AA;
 }
+div {
+    width: 300px;
+    height: 300px;
+    background-image: url("data:image/svg+xml,%3csvg%20width='15'%20height='34'%20viewBox='0%200%20852%20875'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1%20873V1H850.5L637.638%20219.5C637.638%20219.5%20338%20182.5%20291%20219.5C244%20256.5%20291%20305%20291%20305H554.344L380.937%20483C380.937%20483%20330%20452.5%20291%20483C252%20513.5%20291%20575.319%20291%20575.319L1%20873Z'%20fill='%2367e480'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    /*background-position-x: center;
+    background-position-y: center;*/
+    background-position: center;
+    background-size: cover;
+
+    background: purple no-repeat center/50px url("data:image/svg+xml,%3csvg%20width='15'%20height='34'%20viewBox='0%200%20852%20875'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1%20873V1H850.5L637.638%20219.5C637.638%20219.5%20338%20182.5%20291%20219.5C244%20256.5%20291%20305%20291%20305H554.344L380.937%20483C380.937%20483%20330%20452.5%20291%20483C252%20513.5%20291%20575.319%20291%20575.319L1%20873Z'%20fill='%2367e480'/%3e%3c/svg%3e") ;
+}
