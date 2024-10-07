@@ -6,6 +6,7 @@ body {
   box-sizing: border-box;
   background-color: #F5F4F0;
   font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
 
 #page {
@@ -13,32 +14,92 @@ body {
   width: 1120px;
 }
 
-main p {
+img {
+  border-radius: 28px;
+}
+
+h4 {
   color: #E1624F;
-  margin-bottom: 8px;
-  font-size:  16px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 main h1 {
-  margin-bottom: 40px;
+  margin: 8px auto 40px;
   font-size: 36px;
   font-weight: bold;
 }
 
-main span {
- 
+main p {
+  margin: 24px auto 40px;
+  text-align: center;
+  font-style: italic;
+  font-size: 16px
 }
 
 #destination{
+  padding: 64px 0px 40px;
   border-top: solid #D9D9D9 1px;
   border-bottom: solid #D9D9D9 1px;
   margin: 40px auto;
 }
 
-img {
-  border-radius: 28px;
+#destination h2 {
+  margin: 2px auto 8px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#destination h2 + p {
+  margin-bottom: 16px;
+}
+
+#destination h3 + p {
+  margin-top: 4px;
+}
+
+#destination img {
+  margin: 48px auto 20px;
+}
+
+#destination h3 {
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+#destination h5 {
+  font-size: 16px;
+  margin-top: 24px;
+}
+
+#destination ul {
+  padding-left: 24px;
+  font-weight: bold;
+}
+
+/* #destination ul li:first-child {
+  color: #0C51A7;
+} */
+
+#familias {
+  color: #E5245E;
+}
+
+#orcamento {
+  color: #E95E10;
+}
+
+#casais {
+  color: #591B98;
+}
+
+#historia {
+  color: #0C51A7;
+}
+
+section + P {
+  text-align: center;
 }
 
 footer {
