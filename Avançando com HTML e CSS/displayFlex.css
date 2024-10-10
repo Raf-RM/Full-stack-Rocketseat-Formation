@@ -1,0 +1,28 @@
+section {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+section :nth-child(1){
+    text-align: center;
+    background-color: rgb(233, 3, 3);
+
+}
+
+section :nth-child(2){
+    text-align: center;
+    background-color: rgb(214, 79, 0);
+
+}
+
+section :nth-child(3){
+    text-align: center;
+    background-color: rgb(255, 115, 0);
+
+}
+
+section :nth-child(4){
+    text-align: center;
+    background-color: rgb(255, 208, 0);
+
+}
