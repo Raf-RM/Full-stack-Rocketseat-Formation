@@ -1,0 +1,35 @@
+body  {
+  margin: 0;
+}
+
+#app {
+  /* border: 2px solid black; */
+  display: grid;
+  height: 100vh;
+  /* ESTUDANDO GRID-TEMPLATE-COLUMNS */
+  /* grid-template-columns: 80px 160px 240px 320px; */
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  /* grid-template-columns: 1fr 2fr 4fr 1fr; */
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(6, 1fr); */
+  /* grid-template-columns: 2fr 50PX 30% 10vw; */
+  /* grid-template-columns: repeat(2, 1fr); */
+
+  /* ESTUDANDO GRID-TEMPLATE-ROWS */
+  /* grid-template-rows: 1fr 2fr 3fr 4fr; */
+  /* grid-template-rows: 50px 2fr 30% 2fr; */
+  grid-template-rows: repeat(3, 1fr);
+}
+
+header {
+
+  border: 1px solid green;
+}
+
+#app div{
+  border: 1px solid red;
+}
+
+span {
+  border: 1px solid blue;
+}
