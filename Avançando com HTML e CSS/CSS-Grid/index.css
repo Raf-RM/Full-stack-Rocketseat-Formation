@@ -1,8 +1,10 @@
 body  {
   margin: 0;
+
 }
 
 #app {
+  box-sizing: border-box;
   /* border: 2px solid black; */
   display: grid;
   height: 100vh;
@@ -10,7 +12,7 @@ body  {
   /* grid-template-columns: 80px 160px 240px 320px; */
   /* grid-template-columns: 1fr 1fr 1fr 1fr; */
   /* grid-template-columns: 1fr 2fr 4fr 1fr; */
-  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(3, 1fr); */
   /* grid-template-columns: repeat(6, 1fr); */
   /* grid-template-columns: 2fr 50PX 30% 10vw; */
   /* grid-template-columns: repeat(2, 1fr); */
@@ -18,18 +20,32 @@ body  {
   /* ESTUDANDO GRID-TEMPLATE-ROWS */
   /* grid-template-rows: 1fr 2fr 3fr 4fr; */
   /* grid-template-rows: 50px 2fr 30% 2fr; */
-  grid-template-rows: repeat(3, 1fr);
+  /* grid-template-rows: repeat(3, 1fr); */
+
+  /* ESUDANDO GRID-TEMPLATE-AREAS */
+  /* grid-template-areas: 
+    "header header header"
+    "main main aside"
+    "footer footer footer"
+  ; */
+  grid-template-areas: 
+  "A B B"
+  "A B B"
+  "A C D";
+
+  gap: 20px;
+  padding: 20px;
 }
 
-header {
 
-  border: 1px solid green;
-}
-
-#app div{
+#app > *  {
   border: 1px solid red;
 }
 
-span {
-  border: 1px solid blue;
+#app header {
+  grid-area: A;
+}
+
+#app main {
+  grid-area: B;
 }
