@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.grid {
+  background-color: black;
+
+  height: 100vh;
+  width: 100vh;
+
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 8px;
+
+  /* align-content: center; */
+  /* justify-content: center; */
+
+  place-content: space-evenly;
+
+  /* align-items: center; */
+  /* justify-items: center; */
+  /* place-items: center; */
+ 
+
+}
+
+.grid div {
+  background-color: rgb(46, 138, 192);
+}
+
+.grid div:nth-child(5){
+  /* align-self: center; */
+  /* justify-self: center; */
+  place-self: center;
+}
