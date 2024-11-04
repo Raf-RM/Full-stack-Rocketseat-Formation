@@ -1,0 +1,16 @@
+/* CONCEITOS DE UTILIT FIRST -> classe que faz uma única coisa */
+.grid {
+  display: grid;
+}
+
+.grid-flow-column { 
+  grid-auto-flow: column;
+}
+
+.grid-2-cols {
+  grid-template-columns: 1fr 1fr;
+}
+
+.gap-16 {
+  gap: 16px;
+}

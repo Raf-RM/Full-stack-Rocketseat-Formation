@@ -40,19 +40,17 @@ h1, h2, h3 {
   font: inherit;
 }
 
+main img {
+  width: 100%;
+} 
+
 .container {
   max-width: 1280px;
   margin-inline: auto;
   padding-inline: 32px;
 }
 
-/* CONCEITOS DE UTILIT FIRST -> classe que faz uma única coisa */
-.grid {
-  display: grid;
+main {
+  margin-top: 40px;
 }
-
-.grid-flow-column { 
-  grid-auto-flow: column;
-}
-
 
