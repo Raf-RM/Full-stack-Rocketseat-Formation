@@ -35,3 +35,8 @@
 --text-sm: 14px/140% var(--font-family-mavenpro); 
 
 }
+
+body {
+  background-color: var(--gray-300);
+  color: var(--gray-400);
+}
