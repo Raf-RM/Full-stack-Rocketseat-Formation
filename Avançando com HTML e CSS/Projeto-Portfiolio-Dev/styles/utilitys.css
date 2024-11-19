@@ -9,3 +9,9 @@
 .tags{
   gap: 8px;
 }
+
+.container {
+  width: 1040px;
+  text-align: center;
+  
+}
