@@ -37,6 +37,9 @@
 }
 
 body {
-  background-color: var(--gray-300);
+  /* min-width: 1366px; */
+
+  background-color: var(--gray-200);
   color: var(--gray-400);
 }
+

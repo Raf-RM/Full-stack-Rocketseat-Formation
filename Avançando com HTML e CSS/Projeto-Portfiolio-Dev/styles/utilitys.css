@@ -1,0 +1,11 @@
+.grid {
+  display: grid;
+}
+
+.grid-columns {
+  grid-auto-flow: column;
+}
+
+.tags{
+  gap: 8px;
+}

@@ -1,0 +1,19 @@
+header {
+  height: 750px;
+  background-image: url(../assets/images/Background_Intro.png);
+  background-size: cover;
+
+  text-align: center;
+  figure{
+    #perfil {
+      border: 2px solid var(--color-red);
+      border-radius: 50%;
+      object-fit: cover;    
+      width: 96px;
+      height: 96px;
+      padding: 4px;
+    }
+  }
+
+}
+
