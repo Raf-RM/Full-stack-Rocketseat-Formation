@@ -1,15 +1,16 @@
 header {
   height: 750px;
-
+  
   background-image: url(../assets/images/Background_Intro.png);
   background-size: cover;
 
   div{
-    margin: 0 auto;
-    align-self: center;
+    margin: 56px auto;
+    /* align-self: center; */
   }
 
-  div>figure{
+  figure{
+    margin: 150px auto 56px;
     #perfil {
       border: 2px solid var(--color-red);
       border-radius: 50%;
@@ -18,7 +19,33 @@ header {
       height: 96px;
       padding: 4px;
     }
+
   }
 
+}
+
+.container {
+  width: 1040px;
+  text-align: center;
+  padding-inline: 143px;
+
+
+  h1{
+    margin-block: 8px 20px;
+  }
+
+  #container-tags{
+    margin-top: 80px;
+  }
+}
+
+#perfil{
+  position: absolute;
+}
+
+#codeimg{
+  position: relative;
+  top: 64px;
+  left: 64px;
 }
 
