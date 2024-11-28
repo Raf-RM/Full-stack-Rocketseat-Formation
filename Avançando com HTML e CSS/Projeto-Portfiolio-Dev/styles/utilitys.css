@@ -20,3 +20,13 @@
   }
 }
 
+.tx-subtitle{
+  font: var(--subtitle);
+}
+.tx-title-lg{
+  font: var(--title-lg);
+}
+.tx-sm{
+  font: var(--text-sm);
+}
+

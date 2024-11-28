@@ -33,7 +33,7 @@ header {
 }
 
 #perfil{
-  position: absolute;
+  /* position: absolute; */
 }
 
 #codeimg{
@@ -46,7 +46,7 @@ header {
   width: 680px;
   text-align: center;
   margin: 0px auto;
-  
+
   h1{
     margin-block: 8px 20px;
   }

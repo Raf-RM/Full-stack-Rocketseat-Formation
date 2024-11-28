@@ -21,9 +21,9 @@
 --gray-600: #E2E4E9;
 
 /*Fonts*/
---font-family-asap: font-family: "Asap", serif;
---font-family-inconsolata: font-family: "Inconsolata", monospace;
---font-family-mavenpro: font-family: "Maven Pro", serif;
+--font-family-asap:  "Asap", serif;
+--font-family-inconsolata:  "Inconsolata", monospace;
+--font-family-mavenpro: "Maven Pro", serif;
 
 --title-lg: Bold 56px/120% var(--font-family-asap);
 --title-md: Bold 24px/120% var(--font-family-asap);
