@@ -5,7 +5,7 @@ header {
   background-size: cover;
 
   div{
-    margin: 56px auto;
+    /* margin: 56px auto; */
     /* align-self: center; */
   }
 
@@ -28,15 +28,8 @@ header {
   width: 1040px;
   text-align: center;
   padding-inline: 143px;
+  margin: 0px auto;
 
-
-  h1{
-    margin-block: 8px 20px;
-  }
-
-  #container-tags{
-    margin-top: 80px;
-  }
 }
 
 #perfil{
@@ -49,3 +42,16 @@ header {
   left: 64px;
 }
 
+#presentation{
+  width: 680px;
+  text-align: center;
+  margin: 0px auto;
+  
+  h1{
+    margin-block: 8px 20px;
+  }
+
+  #container-tags{
+    margin-top: 80px;
+  }
+}
