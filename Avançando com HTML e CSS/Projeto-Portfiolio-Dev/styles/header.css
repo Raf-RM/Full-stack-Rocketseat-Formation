@@ -4,13 +4,8 @@ header {
   background-image: url(../assets/images/Background_Intro.png);
   background-size: cover;
 
-  div{
-    /* margin: 56px auto; */
-    /* align-self: center; */
-  }
-
   figure{
-    margin: 150px auto 56px;
+    margin: 0px auto 56px;
     #perfil {
       border: 2px solid var(--color-red);
       border-radius: 50%;
@@ -32,10 +27,6 @@ header {
 
 }
 
-#perfil{
-  /* position: absolute; */
-}
-
 #codeimg{
   position: relative;
   top: 64px;
@@ -45,7 +36,7 @@ header {
 #presentation{
   width: 680px;
   text-align: center;
-  margin: 0px auto;
+  margin: 128px auto 80px;
 
   h1{
     margin-block: 8px 20px;
@@ -53,5 +44,15 @@ header {
 
   #container-tags{
     margin-top: 80px;
+
   }
 }
+
+#github{
+  width: 24px;
+  height: 24px;
+  background-image: url("../assets/icons/GitHub.svg");
+  background-size: contain;
+  
+}
+

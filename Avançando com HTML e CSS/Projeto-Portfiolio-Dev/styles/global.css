@@ -43,3 +43,7 @@ body {
   color: var(--gray-400);
 }
 
+strong{
+  color: var(--color-red);
+}
+

@@ -29,4 +29,7 @@
 .tx-sm{
   font: var(--text-sm);
 }
+.tx-md{
+  font: var(--text-md);
+}
 
