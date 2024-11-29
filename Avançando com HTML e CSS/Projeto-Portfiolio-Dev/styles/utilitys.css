@@ -6,6 +6,17 @@
   grid-auto-flow: column;
 }
 
+.grid-areas{
+  grid-template-areas: 
+  "Project1 Project2 Project3"
+  "Project4 Project5 Project6"
+  ;
+}
+
+.grid-2-cols {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .tags{
   gap: 8px;
   align-items: center;
