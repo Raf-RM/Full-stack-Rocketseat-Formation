@@ -1,5 +1,5 @@
 header {
-  height: 750px;
+  /* height: 750px; */
   
   background-image: url(../assets/images/Background_Intro.png);
   background-size: cover;
@@ -23,8 +23,7 @@ header {
   width: 1040px;
   text-align: center;
   padding-inline: 143px;
-  margin: 0px auto;
-
+  margin: 0px auto 0px;
 }
 
 #codeimg{
@@ -36,16 +35,17 @@ header {
 #presentation{
   width: 680px;
   text-align: center;
-  margin: 128px auto 80px;
+  margin: 130px auto 80px;
 
   h1{
     margin-block: 8px 20px;
   }
+}
 
-  #container-tags{
-    margin-top: 80px;
-
-  }
+#container-tags{
+  height: 40px;
+  padding: 0px;
+  margin-block: 0px 96px;
 }
 
 #github{

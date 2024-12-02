@@ -1,4 +1,31 @@
 #projects {
   justify-items: center;
+  margin-block: 72px 144px;
+
+  h2{
+    margin-block: 6px 56px;
+  }
+
+  #cards{
+    gap: 24px;
+  }
 }
+
+.card{
+  width: 330px;
+  height: 280px;
+  background-color: var(--gray-300);
+  border-radius: 8px;
+  padding: 12px;
+
+  h3{
+    margin-block: 20px 8px;
+  }
+
+  img{
+    width: 306px;
+    border-radius: 8px;
+  }
+}
+
 
