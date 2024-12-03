@@ -20,12 +20,24 @@
 
   h3{
     margin-block: 20px 8px;
+    font: var(--title-sm);
+  }
+
+  p{
+    font: var(--text-sm);
   }
 
   img{
     width: 306px;
     border-radius: 8px;
   }
+}
+
+.grid-areas{
+  grid-template-areas: 
+  "Project1 Project2 Project3"
+  "Project4 Project5 Project6"
+  ;
 }
 
 

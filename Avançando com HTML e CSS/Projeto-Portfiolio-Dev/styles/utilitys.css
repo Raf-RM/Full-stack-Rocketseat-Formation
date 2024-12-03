@@ -6,13 +6,6 @@
   grid-auto-flow: column;
 }
 
-.grid-areas{
-  grid-template-areas: 
-  "Project1 Project2 Project3"
-  "Project4 Project5 Project6"
-  ;
-}
-
 .grid-2-cols {
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -36,6 +29,9 @@
 }
 .tx-title-lg{
   font: var(--title-lg);
+}
+.tx-title-md{
+  font: var(--title-md);
 }
 .tx-sm{
   font: var(--text-sm);
