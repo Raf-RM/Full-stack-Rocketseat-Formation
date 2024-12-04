@@ -1,0 +1,25 @@
+#contacts{
+  justify-items: center;
+  div:nth-child(4){
+    gap: 16px;
+  }
+}
+
+#button{
+  width: 400px;
+  height: 68px;
+  background-color: var(--gray-300);
+  border-radius: 8px;
+  padding: 20px;
+
+  justify-content: space-between;
+
+  div{
+    gap: 12px;
+  }
+
+  img{
+    width: 28px;
+    height: 28px;
+  }
+}
