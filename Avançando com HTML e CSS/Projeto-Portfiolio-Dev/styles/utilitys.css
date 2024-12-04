@@ -33,6 +33,9 @@
 .tx-title-md{
   font: var(--title-md);
 }
+.tx-title-sm{
+  font: var(--title-sm);
+}
 .tx-sm{
   font: var(--text-sm);
 }
