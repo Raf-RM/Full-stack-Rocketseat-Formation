@@ -4,6 +4,7 @@
 
   h2{
     margin-block: 6px 56px;
+    color: var(--gray-600);
   }
 
   #cards{
@@ -21,6 +22,7 @@
   h3{
     margin-block: 20px 8px;
     font: var(--title-sm);
+    color: var(--gray-600);
   }
 
   p{

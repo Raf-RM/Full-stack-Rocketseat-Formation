@@ -4,8 +4,13 @@
   background-size: cover;
   padding-block: 128px 200px;
 
+  strong{
+    color: var(--color-purple);
+  }
+
   h2{
     margin-block: 8px 8px;
+    color: var(--gray-600);
   }
 
   #buttons{
@@ -22,13 +27,16 @@
   padding: 20px;
 
   justify-content: space-between;
+  align-items: center;
 
   div{
     gap: 12px;
+    align-items: center;
   }
 
-  img{
-    width: 28px;
-    height: 28px;
+  img:nth-child(2){
+    width: 20px;
+    height: 20px;
   }
+
 }

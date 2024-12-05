@@ -4,6 +4,10 @@ header {
   background-image: url(../assets/images/Background_Intro.png);
   background-size: cover;
 
+  h1{
+    color: var(--gray-600);
+  }
+
   figure{
     margin: 0px auto 56px;
     #perfil {
