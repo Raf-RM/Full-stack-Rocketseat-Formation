@@ -47,3 +47,13 @@ strong{
   color: var(--color-red);
 }
 
+a{
+  text-decoration: none;
+  color: var(--gray-500);
+
+  &:hover{
+    border: 1px solid var(--color-blue);
+    border-radius: 8px;
+  }
+}
+
