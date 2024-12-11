@@ -1,9 +1,30 @@
-<form action="">
+<form action="" enctype="multipart/form-data">
+
   <input type="text" name="nome" placeholder="Digite seu nome">
   <br><br>
+
   <input type="number" min="1" max="20">
   <br><br>
-  <input type="email" name="mail" placeholder="Email" required pattern=".+@rocketseat\.com" title="Emails apenas @rocketseat.com">
+
+  <input type="email" name="mail" placeholder="Email" pattern=".+@rocketseat\.com" title="Emails apenas @rocketseat.com">
   <br><br>
+
+  <input type="password" name="senha" minlength="8" pattern="[#a-fA-F0-9]{8,20}" title="Somente hexadecimal">
+  <br><br>
+
+  <input type="file" name="arquivos" multiple accept="image/*">
+  <br><br>
+
+  <input type="range" name="total" min="0" max="10" step="1" value="1">
+  <br><br>
+
+  <datalist id="colorpick">
+    <option value="#000000">
+    <option value="#808080">
+    <option value="#DCDCDC">
+  </datalist>
+  <input type="color" name="color" value="#87CEFA" list="colorpick">
+  <br><br>
+  
   <button>Submit</button>
 </form>
